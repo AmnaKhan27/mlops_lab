@@ -1,5 +1,10 @@
-print("Training ML model...")
+from sklearn.ensemble import RandomForestClassifier
 
+print("Starting Random Forest experiment...")
 
+model = RandomForestClassifier(
+    n_estimators=100,
+    random_state=42
+)
 
-print("MLOps Github experiment")
+print("Model:", model)
