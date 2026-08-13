@@ -1,5 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 
+print("Training production model...")
+
 print("Starting Random Forest experiment...")
 
 model = RandomForestClassifier(
