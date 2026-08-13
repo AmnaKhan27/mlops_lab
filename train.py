@@ -1,6 +1,11 @@
 from sklearn.ensemble import RandomForestClassifier
 
+
 print("Training production model...")
+
+
+print("Testing XGBoost experiment...")
+
 
 print("Starting Random Forest experiment...")
 
